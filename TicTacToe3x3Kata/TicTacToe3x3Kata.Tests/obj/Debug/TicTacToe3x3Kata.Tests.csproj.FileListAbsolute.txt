@@ -1,0 +1,10 @@
+C:\Users\kj88489\Desktop\Self Study\Katas\TicTacToe3x3Kata\TicTacToe3x3Kata.Tests\obj\Debug\TicTacToe3x3Kata.Tests.csprojResolveAssemblyReference.cache
+C:\Users\kj88489\Desktop\Self Study\Katas\TicTacToe3x3Kata\TicTacToe3x3Kata.Tests\bin\Debug\TicTacToe3x3Kata.Tests.dll
+C:\Users\kj88489\Desktop\Self Study\Katas\TicTacToe3x3Kata\TicTacToe3x3Kata.Tests\bin\Debug\TicTacToe3x3Kata.Tests.pdb
+C:\Users\kj88489\Desktop\Self Study\Katas\TicTacToe3x3Kata\TicTacToe3x3Kata.Tests\bin\Debug\nunit.framework.dll
+C:\Users\kj88489\Desktop\Self Study\Katas\TicTacToe3x3Kata\TicTacToe3x3Kata.Tests\bin\Debug\TicTacToe3x3Kata.exe
+C:\Users\kj88489\Desktop\Self Study\Katas\TicTacToe3x3Kata\TicTacToe3x3Kata.Tests\bin\Debug\TicTacToe3x3Kata.pdb
+C:\Users\kj88489\Desktop\Self Study\Katas\TicTacToe3x3Kata\TicTacToe3x3Kata.Tests\bin\Debug\nunit.framework.pdb
+C:\Users\kj88489\Desktop\Self Study\Katas\TicTacToe3x3Kata\TicTacToe3x3Kata.Tests\bin\Debug\nunit.framework.xml
+C:\Users\kj88489\Desktop\Self Study\Katas\TicTacToe3x3Kata\TicTacToe3x3Kata.Tests\obj\Debug\TicTacToe3x3Kata.Tests.dll
+C:\Users\kj88489\Desktop\Self Study\Katas\TicTacToe3x3Kata\TicTacToe3x3Kata.Tests\obj\Debug\TicTacToe3x3Kata.Tests.pdb

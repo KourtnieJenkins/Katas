@@ -1,1 +1,7 @@
 C:\Users\kj88489\Desktop\Self Study\VS Projects\TicTacToe3x3Kata\TicTacToe3x3Kata\bin\Debug\TicTacToe3x3Kata.exe.config
+C:\Users\kj88489\Desktop\Self Study\Katas\TicTacToe3x3Kata\TicTacToe3x3Kata\bin\Debug\TicTacToe3x3Kata.exe.config
+C:\Users\kj88489\Desktop\Self Study\Katas\TicTacToe3x3Kata\TicTacToe3x3Kata\bin\Debug\TicTacToe3x3Kata.exe
+C:\Users\kj88489\Desktop\Self Study\Katas\TicTacToe3x3Kata\TicTacToe3x3Kata\bin\Debug\TicTacToe3x3Kata.pdb
+C:\Users\kj88489\Desktop\Self Study\Katas\TicTacToe3x3Kata\TicTacToe3x3Kata\obj\Debug\TicTacToe3x3Kata.csprojResolveAssemblyReference.cache
+C:\Users\kj88489\Desktop\Self Study\Katas\TicTacToe3x3Kata\TicTacToe3x3Kata\obj\Debug\TicTacToe3x3Kata.exe
+C:\Users\kj88489\Desktop\Self Study\Katas\TicTacToe3x3Kata\TicTacToe3x3Kata\obj\Debug\TicTacToe3x3Kata.pdb

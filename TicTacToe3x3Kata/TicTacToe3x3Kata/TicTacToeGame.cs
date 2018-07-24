@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TicTacToe3x3Kata
 {
-    class TicTacToeGame
+    public class TicTacToeGame
     {
     }
 }
