@@ -8,7 +8,6 @@ namespace TicTacToe3x3Kata
 {
     public class WinStateCollection
     {
-        private List<WinState> possibleWins = new List<WinState>();
         private List<WinState> columnWinStates = new List<WinState>();
         private List<WinState> rowWinStates = new List<WinState>();
         private WinState diagonalForwardWinState;
@@ -80,10 +79,10 @@ namespace TicTacToe3x3Kata
 
         }
 
-        public void updateColumnWinStates(String player, int rowIndex)
+        public void updateColumnWinStates(String player, int columnIndex)
         {
             WinState winState = new WinState();
-            winState = getRowWinStateAtIndexOf(rowIndex);
+            winState = getColumnWinStateAtIndexOf(columnIndex);
 
             //
             if (winState.getOwner() == null)
@@ -103,11 +102,25 @@ namespace TicTacToe3x3Kata
            
         }
 
-        public void updateRowWinStates(String player, int columnIndex)
+        public void updateRowWinStates(String player, int rowIndex)
         {
             WinState winState = new WinState();
-            winState = getColumnWinStateAtIndexOf(columnIndex);
-            winState.setOwner(player);
+            winState = getRowWinStateAtIndexOf(rowIndex);
+
+            //
+            if (winState.getOwner() == null)
+            {
+                winState.setOwner(player);
+            }
+            else if (winState.getOwner().Equals(player))
+            {
+
+
+            }
+            else
+            {
+                //update positions, remove wins
+            }
 
         }
 
