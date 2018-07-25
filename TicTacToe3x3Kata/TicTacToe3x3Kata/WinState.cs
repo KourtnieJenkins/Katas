@@ -89,6 +89,14 @@ namespace TicTacToe3x3Kata
             
         }
 
+        public void checkIsWinning()
+        {
+            if (isWinning != false)
+            {
+
+            }
+        }
+
 
     }
 

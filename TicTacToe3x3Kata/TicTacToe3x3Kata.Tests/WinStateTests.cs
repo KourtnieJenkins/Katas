@@ -83,7 +83,7 @@ namespace TicTacToe3x3Kata.Tests
         }
 
         [Test]
-        public void UpdateIsWinning_InvokedAfterAllWinStatePositionsArePopulatedBySamePlayerValue_IsWinningSetToTrue()
+        public void CheckIsWinning_InvokedAfterAllWinStatePositionsArePopulatedBySamePlayerValue_IsWinningSetToTrue()
         {
             winState.positionIsUpdated(playerX, 0);
             winState.positionIsUpdated(playerX, 1);
