@@ -8,5 +8,10 @@ namespace TicTacToe3x3Kata
 {
     public class TicTacToeGame
     {
+
+        public void startgame(int n, int m)
+        {
+
+        }
     }
 }

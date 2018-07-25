@@ -23,19 +23,19 @@ namespace TicTacToe3x3Kata
         {
             for (int i = 0; i < n; i++)
             {
-                columnWinStates.Add(new WinState());
+                columnWinStates.Add(new WinState(n));
 
             }
 
             for (int i = 0; i < m; i++)
             {
-                rowWinStates.Add(new WinState());
+                rowWinStates.Add(new WinState(m));
             }
 
             if (n == m)
             {
-                diagonalForwardWinState = new WinState();
-                diagonalBackwardWinState = new WinState();
+                diagonalForwardWinState = new WinState(n);
+                diagonalBackwardWinState = new WinState(n);
             }
 
         }
@@ -81,15 +81,15 @@ namespace TicTacToe3x3Kata
 
         public void updateColumnWinStates(String player, int columnIndex)
         {
-            WinState winState = new WinState();
+            WinState winState = new WinState(columnWinStates.Count);
             winState = getColumnWinStateAtIndexOf(columnIndex);
 
             //
             if (winState.getOwner() == null)
             {
-                winState.setOwner(player);
+                winState.Owner = player;
             }
-            else if(winState.getOwner().Equals(player))
+            else if(winState.Owner.Equals(player))
             {
                
 
@@ -104,15 +104,15 @@ namespace TicTacToe3x3Kata
 
         public void updateRowWinStates(String player, int rowIndex)
         {
-            WinState winState = new WinState();
+            WinState winState = new WinState(rowWinStates.Count);
             winState = getRowWinStateAtIndexOf(rowIndex);
 
             //
             if (winState.getOwner() == null)
             {
-                winState.setOwner(player);
+                winState.Owner = player;
             }
-            else if (winState.getOwner().Equals(player))
+            else if (winState.Owner.Equals(player))
             {
 
 

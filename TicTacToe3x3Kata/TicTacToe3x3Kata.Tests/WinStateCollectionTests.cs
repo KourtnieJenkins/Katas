@@ -69,14 +69,32 @@ namespace TicTacToe3x3Kata.Tests
             Assert.That(winStateCollection.getDiagonalForwardWinState() == null && winStateCollection.getDiagonalBackwardWinState() == null);            
         }
 
+
         
+
+
+        /*
         [Test]
         public void updateWinStates_InvokedWithPlayerXRow1Column1ForFistTime_OwnerOfRowWinStateAndColumnWinState1IsSetToPlayerX()
         {
             winStateCollection.updateWinStates(playerX, 1, 1);
             
             Assert.That(winStateCollection.getRowWinStateAtIndexOf(1).getOwner().Equals("X"));
+        }*/
+
+        /*
+        [Test]
+        public void updateOwner_InvokedWithPlayerX_WinStateOwnerSetToPlayerX()
+        {
+            WinStateCollection.updateOwner(playerX);
+
+            Assert.That(winStateCollection.getr);
         }
+
+        public void updateOwner_InvokedWithPlayerXFollowedByPlayerO_WinStateOwnerSetToPlayerX()
+        {
+
+        }*/
         
 
 
