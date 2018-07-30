@@ -40,6 +40,7 @@ namespace TicTacToeKata
 
         public bool tryUpdatingPositions(string player, int index)
         {
+            Owner = player;
             if (positions[index] == null)
             {
                 positions[index] = player;
@@ -54,6 +55,7 @@ namespace TicTacToeKata
             {
                 return false;
             }
+            checkForWinInWinState();
             return true;
         }
 
