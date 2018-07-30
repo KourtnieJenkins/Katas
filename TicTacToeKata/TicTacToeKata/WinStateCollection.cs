@@ -17,12 +17,12 @@ namespace TicTacToeKata
         private int diagonalDimensions;
         private WinState winner;
         
-        public List<WinState> RowWinStates { get => rowWinStates; }
-        public List<WinState> ColumnWinStates { get => columnWinStates; }
-        public List<WinState> PossibleWins { get => possibleWins;  }
-        public WinState DiagonalForwardWinState { get => diagonalForwardWinState; }
-        public WinState DiagonalBackwardWinState { get => diagonalBackwardWinState; }
-        public WinState Winner { get => winner; }
+        public List<WinState> RowWinStates => rowWinStates;
+        public List<WinState> ColumnWinStates => columnWinStates;
+        public List<WinState> PossibleWins => possibleWins;
+        public WinState DiagonalForwardWinState => diagonalForwardWinState;
+        public WinState DiagonalBackwardWinState => diagonalBackwardWinState;
+        public WinState Winner => winner;
 
         public void populateWinStates(int numberOfRows, int numberOfColumns)
         {                              

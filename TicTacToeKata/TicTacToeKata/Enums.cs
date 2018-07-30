@@ -5,6 +5,7 @@ namespace TicTacToeKata
     {
         Unknown,
         Lose,
-        Win
+        Win,
+        Invalid //for gart
     }
 }

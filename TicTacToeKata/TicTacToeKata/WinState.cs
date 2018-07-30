@@ -20,7 +20,10 @@ namespace TicTacToeKata
 
         public string Owner
         {
-            get => owner;
+            get
+            {
+                return owner;
+            }
 
             set
             {
@@ -34,9 +37,19 @@ namespace TicTacToeKata
             }
         }
 
-        public WinType WinStatus { get => winStatus; set => winStatus = value; }
+        public WinType WinStatus
+        {
+            get
+            {
+                return winStatus;
+            }
+            set
+            {
+                winStatus = value;
+            }
+        }
 
-        public string[] Positions { get => positions; } //made this field gettable for testing, what are other solutions for this??
+        public string[] Positions => positions;  //made this field gettable for testing, what are other solutions for this??
 
         public bool tryUpdatingPositions(string player, int index)
         {

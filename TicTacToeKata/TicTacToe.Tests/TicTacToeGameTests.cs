@@ -37,6 +37,11 @@ namespace TicTacToe.Tests
         }
 
         [Test]
-        public void UpdatePlayerMove_InvokedWithValidInput_
+        public void UpdatePlayerMove_InvokedWithValidMoveIsMade_ReturnsAnEmptyString()
+        {
+            ticTacToe.startGame();
+            string actual = ticTacToe.updatePlayerMove("X", 0, 0);
+            Assert.IsEmpty(actual);
+        }
     }
 }
